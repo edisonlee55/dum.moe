@@ -32,14 +32,9 @@ video {
   z-index: 0;
 }
 
-@media (pointer: coarse) and (hover: none) {
-  body {
-    background: url('../img/bg-mobile-fallback.jpg') $primary no-repeat center center scroll;
-    background-position: cover;
-  }
-  body video {
-    display: none;
-  }
+body {
+  background: url('https://cdn.edisonlee55.com/edisonlee55/resources/photo/69446164_p0.jpg') $primary no-repeat center center scroll;
+  background-position: cover;
 }
 
 .overlay {
